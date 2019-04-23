@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-dirtyfields"
+version = "1.3.2"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pytz = ">=2015.7"
+django = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
